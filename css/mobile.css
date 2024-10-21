@@ -1,4 +1,4 @@
-/* navbar */
+/*navbar*/
 #navbar h1 {
     float: none;
     text-align: center;
@@ -11,7 +11,7 @@
     padding: 5px;
     border-bottom: #444 dotted 1px;
 }
-/* showcase */
+/*showcase*/
 #showcase {
     height: 100%;
 }
@@ -19,7 +19,7 @@
     padding-top: 70px;
     padding-bottom: 30px;
 }
-/* info */
+/*info*/
 #info {
     height: 300px;
 }
@@ -30,12 +30,12 @@
     float: none;
     width: 100%;
 }
-/* features */
+/*features*/
 #features .box {
-    float:none;
+    float: none;
     width: 100%;
 }
-/* about */
+/*about*/
 #about-info .info-left,
 #about-info .info-right {
     float: none;
@@ -47,7 +47,7 @@
 #about-info .info-left h1 {
     text-align: center;
 }
-/* contact-info */
+/*contact-info*/
 #contact-form h1,
 #contact-form p {
     text-align: center;

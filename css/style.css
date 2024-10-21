@@ -128,17 +128,14 @@ h1, h2, h3 {
     min-height: 100%;
 }
 /*features*/
-#features {
-    display: flex;
-}
 #features .box {
-    flex: 1;
+    float: left;
     width: 33.3%;
     padding: 50px;
     text-align: center;
 }
 #features .box i {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 /*footer*/
 footer {
@@ -178,6 +175,7 @@ footer {
     text-align: center;
 }
 #testimonials .testimonial {
+    display: flex;
     padding: 20px;
     margin-bottom: 40px;
     border-radius: 5px;
@@ -185,9 +183,11 @@ footer {
 }
 #testimonials .testimonial img {
     width: 70px;
+    height: 70px;
     float: left;
     margin-right: 20px;
     border-radius: 50%;
+    object-fit: cover;
 }
 /*contact*/
 #contact-form .form-group {
