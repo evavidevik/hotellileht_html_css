@@ -68,11 +68,12 @@ h1, h2, h3 {
     color:#fff;
 }
 #navbar ul {
-    float: right;
+    display: flex;
+    justify-content: flex-end;
     list-style: none;
 }
 #navbar ul li {
-    float: left;
+    display: block;
 }
 #navbar ul li a {
     display: block;
@@ -111,7 +112,6 @@ h1, h2, h3 {
     height: 400px;
 }
 #info .info-content {
-    float: right;
     width: 50%;
     height: 100%;
     text-align: center;
@@ -184,7 +184,6 @@ footer {
 #testimonials .testimonial img {
     width: 70px;
     height: 70px;
-    float: left;
     margin-right: 20px;
     border-radius: 50%;
     object-fit: cover;

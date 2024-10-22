@@ -3,9 +3,13 @@
     float: none;
     text-align: center;
 }
-#navbar ul,
+#navbar ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
 #navbar ul li {
-    float: none;
+    margin: 0;
 }
 #navbar ul li a {
     padding: 5px;
@@ -27,18 +31,19 @@
     display: none;
 }
 #info .info-content {
-    float: none;
     width: 100%;
 }
 /*features*/
 #features .box {
-    float: none;
+    display: flex;
+    flex-direction: column;
     width: 100%;
 }
 /*about*/
 #about-info .info-left,
 #about-info .info-right {
-    float: none;
+    display: flex;
+    flex-direction: column;
     width: 100%;
 }
 #about-info .info-right {
@@ -50,10 +55,13 @@
 /*contact-info*/
 #contact-form h1,
 #contact-form p {
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 #contact-info .box {
-    float: none;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     border-bottom: #444 dotted 1px;
 }
